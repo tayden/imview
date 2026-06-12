@@ -13,6 +13,7 @@ setup(name='imview',
     license='MIT',
     url='https://github.com/dshean/imview',
     packages=['imview','imview.lib'],
+    package_data={'imview.lib': ['*.cpt']},
     long_description=open('README.md').read(),
     install_requires=['numpy','gdal','matplotlib', 'pygeotools', 'matplotlib-scalebar', 'matplotlib-colorbar'],
     #Note: this will write to /usr/local/bin
